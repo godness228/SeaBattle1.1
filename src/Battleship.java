@@ -1,0 +1,10 @@
+public class Battleship extends Ships{
+
+    int counter = 0;
+
+    @Override
+    public int placeOnField() {
+
+        return  counter;
+    }
+}
